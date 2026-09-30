@@ -1,0 +1,9 @@
+# Workspace Panel bundle patch.
+# One self-contained client row: this package declares both the bundle patch
+# (dsh.bundle) and the browser half (dsh.client), so the row below names this
+# same package. The node half is an empty apply; the browser half serves the
+# teaching workspace panel. Client data rides the official workspaceFiles
+# Remote (list / read) — read-only access to the current session workspace.
+- insert:
+    - id: ui-workspace-panel
+      name: workspace-panel
