@@ -82,5 +82,6 @@
 
 - 技能清单与编写约定：[技能目录说明](<skills/README.md>)。
 - 规则资料与编写约定：[规则目录说明](<rules/README.md>)。
+- 可选宿主增强：[integrations/](<integrations/>) 目录提供可选的宿主面板插件（当前为 DSH 教学面板，只读展示初始化产物）。核心的技能与规则不依赖它，没有它一切照常；见 [integrations/dsh/workspace-panel/README.md](<integrations/dsh/workspace-panel/README.md>)。
 
 导入其他技能时，同样交给助手处理，并保留技能的完整目录和配套文件；不要只取一份说明文件。
